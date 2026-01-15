@@ -50,7 +50,7 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   emailjs
-    .sendForm("service_54o7q4q", "template_8urgwxh", this)
+    .sendForm("service_sgmcded", "template_8urgwxh", this)
     .then(() => {
       alert("Mensagem enviada com sucesso!");
       form.reset();
