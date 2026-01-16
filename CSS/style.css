@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
@@ -203,14 +207,13 @@ body{
 
 .description{
     max-width: 80%;
-    height: 100px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
     background-color: #fff;
     border-radius: 30px;
     padding: 20px;
+    margin-top: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
@@ -305,7 +308,7 @@ body{
 
 .skills-section{
     background-color: aliceblue;
-    height: 650px;
+    height: 800px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -370,6 +373,10 @@ form{
 
 .contact-section h1{
     margin-bottom: 0;
+}
+
+.contact-section p{
+  text-align: center;
 }
 
 .contact-section .social{
@@ -615,6 +622,11 @@ footer{
     max-width: 300px;
   }
 
+
+}
+
+@media (max-width: 320px){
+  
 
 }
 
