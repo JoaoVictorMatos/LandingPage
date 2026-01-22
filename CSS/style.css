@@ -226,6 +226,10 @@ body{
     padding-bottom: 20px;
 }
 
+.project-element img{
+  max-height: 200px;
+}
+
 .project-list{
     width: 100%;
     height: auto;
